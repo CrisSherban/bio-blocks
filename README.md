@@ -48,7 +48,7 @@ The first is the choice of the node port, while the second is the choice of the 
 To upload a new entry navigate to: ```localhost:<port>/upload``` 
 which will present the web interface to upload a new entry:
 <p align="center">
-    <img src="out/upload.png" width="500" alt="logo">
+    <img src="out/upload.png" width="600" alt="logo">
 </p>
 
 The system is tested with x-ray chest images:
@@ -59,7 +59,7 @@ The system is tested with x-ray chest images:
 
 Then to visualize the blockchain navigate to: ```localhost:<port>/get_chain``` :
 <p align="center">
-    <img src="out/blockchain.png" width="500" alt="logo">
+    <img src="out/blockchain.png" width="600" alt="logo">
 </p>
 
 The current version does not handle automatic node updates.
