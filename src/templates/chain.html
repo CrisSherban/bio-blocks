@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <title>Blockchain</title>
+  <style>
+    body {
+      background-color: lightblue;
+      color: #222;
+      font-family: sans-serif;
+    }
+    .block {
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+    .block-header {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Blockchain</h1>
+  <p>Chain length: {{ chain_data | length }}</p>
+  {% for i, block in enumerate(chain_data) %}
+  <div class="block">
+    <div class="block-header">Block {{ i }}</div>
+    {% for key, value in block.items() %}
+    <p>{{ key }}: {{ value }}</p>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</body>
+</html>

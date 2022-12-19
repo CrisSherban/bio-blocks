@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+    <title>Upload new File</title>
+    <style>
+        body {
+            display: block;
+            text-align: center;
+            background-color: lightblue;
+        }
+
+        h1 {
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+        }
+
+        form {
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            width: 40%;
+            background-color: white;
+            border-radius: 5px;
+            padding: 20px;
+
+        }
+
+        input[type="file"] {
+            background-color: #f2f2f2;
+            border: none;
+            border-radius: 5px;
+            padding: 12px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 12px;
+            cursor: pointer;
+        }
+
+        input[type="text"] {
+            background-color: #f2f2f2;
+            border: none;
+            border-radius: 5px;
+            padding: 12px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        label[for="name"]{
+            background-color: #f2f2f2;
+            border: none;
+            border-radius: 5px;
+            padding: 12px;
+        }
+    </style>
+</head>
+<body>
+<h1 class="center">Upload New File</h1>
+<form method=post enctype=multipart/form-data class="center">
+    <label for="name">Acquisition Name: </label>
+    <input type=text id=name name=name>
+    <input type=file name=file>
+    <input type=submit value=Upload>
+</form>
+</body>
+</html>
