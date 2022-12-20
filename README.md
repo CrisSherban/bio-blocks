@@ -7,7 +7,7 @@ in a consortium, network, or project. In the biomedical context this is a pronou
 generated for machine learning purposes must adhere to certain criteria and standards. To address these issues, this
 work proposes using a blockchain to provide a decentralized shared ledger and a deep learning model pretrained on a
 binary task to filter and verify data before it is added to a new block in the blockchain. This approach can be further
-developed, as outlined in the attached report.
+developed, as outlined in the attached [report](bio-blocks-report.pdf).
 
 ### Code Structure
 
