@@ -4,7 +4,7 @@ from PIL import Image
 import torch
 import json
 
-from src.model import CovDataset, HistEqualization, SmoothImage
+from src.model import HistEqualization, SmoothImage
 
 
 class QualityAssessmentModel:

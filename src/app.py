@@ -43,7 +43,8 @@ class Node:
             data = []
             while True:
                 packet, addr = client_socket.recvfrom(4096)
-                if not packet: break
+                if not packet:
+                    break
                 data.append(packet)
             self.blockchain.chain = pickle.loads(b"".join(data))
             # One should first verify the chain here
